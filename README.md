@@ -19,6 +19,12 @@ Multilne string example in Python - https://stackoverflow.com/questions/35903017
 ## Instructions for the task-2
 Http protocol can be implemented in many different ways. This simple server proxy may not be ready for production purposes, however I have chosen Python for this task becasue this is the technology I am most familiar with.
 
+`python --version`
+Python 3.8.5
+
+`pip3 --version`
+pip 20.0.2
+
 get the repo
 
 `git clone https://github.com/koci54/interview-task.git`
@@ -33,9 +39,24 @@ start the virtual environment
 
 `source task-2-venv/bin/activate`
 
+please install modules individually
+
+`python -m pip install requests`
+
+`pip install flask`
+
+`pip install xmltodict`
+
+or 
 install packages 
 
 `pip install -r requirements.txt`
+
+test the code - start localhost on port 5001
+`python3 final_api.py`
+
+test URL - insert <movie>
+`http://localhost:5001/api/v1/movies/<movie>`
 
 when finished, to stop virtual environment
 
