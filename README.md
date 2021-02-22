@@ -37,7 +37,7 @@ install packages
 
 `pip install -r requirements.txt`
 
-when finished working, to stop virtual environment
+when finished, to stop virtual environment
 
 `deactivate`
 
@@ -45,15 +45,22 @@ when finished working, to stop virtual environment
 #### Libraries used
 requests - 
 https://requests.readthedocs.io/en/master/user/advanced/
+
 urllib - https://docs.python.org/3/library/urllib.parse.html
+
 flask - https://requests.readthedocs.io/en/v1.2.3/user/install/
+
 xmltodict - https://github.com/martinblech/xmltodict
 
 #### Resources
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask - create api with flask.
+
 http://www.compciv.org/guides/python/how-tos/creating-proper-url-query-strings/#requests-to-the-rescue - URL query.
+
 https://www.geeksforgeeks.org/python-xml-to-json/ - xml to json.
+
 https://stackoverflow.com/questions/24892035/how-can-i-get-the-named-parameters-from-a-url-using-flask - content for query string.
+
 https://docs.python.org/3/library/urllib.request.html#urllib-examples - urllib examples.
 
 
